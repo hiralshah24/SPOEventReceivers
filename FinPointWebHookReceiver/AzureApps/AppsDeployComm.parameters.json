@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appServicePlanName": {
+      "value": "FinPointWebHookAppServiceDEVPlan"
+    },
+    "appServiceName": {
+      "value": "FinPointWebHookAppServiceDEV"
+    },
+    "appServiceUrlPrefix": {
+      "value": "FinPointWebHookAppServiceDEV"
+    },
+    "hostUrl": {
+      "value": "FinPointWebHookAppServiceDEV.azurewebsites.net"
+    },
+    "UrlSuffix": {
+      "value": ".azurewebsites.net"
+    },
+    "storageAccountName": {
+      "value": "finpointwebhookstoredev"
+    },
+    "storageEndPointSuffix": {
+      "value": "core.windows.net"
+    },
+    "AppClientSecret": {
+      "value": "psA8XeCqGiVZEnFGbqMzbFS6a55oAHYx9O5NGNo9LFc="
+    },
+    "AppClientId": {
+      "value": "55ebc105-625c-4885-9969-599eba79b907"
+    },
+    "O365TenantName": {
+      "value": "pvhcorp.sharepoint.com"
+    }
+  }
+}

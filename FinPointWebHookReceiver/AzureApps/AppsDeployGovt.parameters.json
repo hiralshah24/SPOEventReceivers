@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appServicePlanName": {
+      "value": "CFWebHookAppServiceTESTPlan"
+    },
+    "appServiceName": {
+      "value": "CFWebHookAppServiceTEST"
+    },
+    "appServiceUrlPrefix": {
+      "value": "CFWebHookAppServiceTEST"
+    },
+    "hostUrl": {
+      "value": "CFWebHookAppServiceTEST.azurewebsites.us"
+    },
+    "UrlSuffix": {
+      "value": ".azurewebsites.us"
+    },
+    "storageAccountName": {
+      "value": "cfwebhookstoredev"
+    },
+    "storageEndPointSuffix": {
+      "value": "core.usgovcloudapi.net"
+    },
+    "AppClientSecret": {
+      "value": "p92iUvQZIefmt8dNWyre+0qj8sr5b63E1ImMFfapdgE="
+    },
+    "AppClientId": {
+      "value": "41effc02-728e-45f6-b657-1506ab6703e0"
+    },
+    "O365TenantName": {
+      "value": "mcao.sharepoint.com"
+    }
+  }
+}

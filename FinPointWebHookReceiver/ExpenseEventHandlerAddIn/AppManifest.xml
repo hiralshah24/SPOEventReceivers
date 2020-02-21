@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="ExpenseEventHandlerAddIn"
+     ProductID="{3dfabd5d-0249-47ca-b948-57de182e0e5b}"
+     Version="1.0.0.0"
+     SharePointMinVersion="16.0.0.0"
+>
+  <Properties>
+    <Title>ExpenseEventHandlerAddIn</Title>
+    <StartPage>https://FinPointWebHookAppServiceDEV.azurewebsites.net/</StartPage>
+  </Properties>
+
+  <AppPrincipal>
+    <RemoteWebApplication ClientId="55ebc105-625c-4885-9969-599eba79b907" />
+    <!--secret psA8XeCqGiVZEnFGbqMzbFS6a55oAHYx9O5NGNo9LFc=-->
+  </AppPrincipal>
+  <AppPermissionRequests>
+    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection" Right="FullControl" />
+  </AppPermissionRequests>
+</App>

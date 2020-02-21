@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseEventHandlerAddIn", "ExpenseEventHandlerAddIn\ExpenseEventHandlerAddIn.csproj", "{B1862985-9A88-47D0-B9D1-90B1120AE2ED}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzureAppStorage", "E:\WebhookDemo-master\WebhookDemo-master\AzureAppStorage\AzureAppStorage.deployproj", "{31A30F96-5D48-4114-92ED-90FCD928F887}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzureApps", "E:\WebhookDemo-master\WebhookDemo-master\AzureApps\AzureApps.deployproj", "{869B8E0E-C21D-4F07-9D29-1D64483C9276}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctions", "AzureFunctions\AzureFunctions.csproj", "{7682A118-1C61-41A7-BA6C-014872674542}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1862985-9A88-47D0-B9D1-90B1120AE2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1862985-9A88-47D0-B9D1-90B1120AE2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1862985-9A88-47D0-B9D1-90B1120AE2ED}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B1862985-9A88-47D0-B9D1-90B1120AE2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1862985-9A88-47D0-B9D1-90B1120AE2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1862985-9A88-47D0-B9D1-90B1120AE2ED}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{31A30F96-5D48-4114-92ED-90FCD928F887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A30F96-5D48-4114-92ED-90FCD928F887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A30F96-5D48-4114-92ED-90FCD928F887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A30F96-5D48-4114-92ED-90FCD928F887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869B8E0E-C21D-4F07-9D29-1D64483C9276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869B8E0E-C21D-4F07-9D29-1D64483C9276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869B8E0E-C21D-4F07-9D29-1D64483C9276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869B8E0E-C21D-4F07-9D29-1D64483C9276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7682A118-1C61-41A7-BA6C-014872674542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7682A118-1C61-41A7-BA6C-014872674542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7682A118-1C61-41A7-BA6C-014872674542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7682A118-1C61-41A7-BA6C-014872674542}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A104E334-F831-46C0-8E38-0590ED67ECC5}
+	EndGlobalSection
+EndGlobal

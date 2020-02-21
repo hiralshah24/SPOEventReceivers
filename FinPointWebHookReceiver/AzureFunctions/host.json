@@ -1,0 +1,7 @@
+{
+  "http": {
+    "routePrefix": "api",
+    "maxConcurrentRequests": 1
+  },
+  "queues": { "batchSize": 1 }
+}
