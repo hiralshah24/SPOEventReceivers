@@ -17,7 +17,7 @@ namespace AzureFunctions
         public static void Run([QueueTrigger(Constants.WebHookStorageQueueName)]NotificationModel queueEventNotification, DateTimeOffset expirationTime
                                  , DateTimeOffset insertionTime, DateTimeOffset nextVisibleTime, string queueTrigger, string id, string popReceipt
                                  , int dequeueCount, TraceWriter log)
-        {
+        {//
             log.Info(System.DateTime.Now + $": Queue trigger function called for queue item {id}, notification {queueEventNotification}");
 
             NameValueCollection appSettings = System.Configuration.ConfigurationManager.AppSettings;
