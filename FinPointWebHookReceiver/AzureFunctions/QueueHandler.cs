@@ -43,10 +43,12 @@ namespace AzureFunctions
             string url = String.Format("https://{0}{1}", appSettings[Constants.TenantNameSettingName], queueEventNotification.SiteUrl);
             string clientId = appSettings[Constants.ClientIdSettingName];
             string clientSecret = appSettings[Constants.ClientSecretSettingName];
+            Guid listId = new Guid(queueEventNotification.Resource);
 
             log.Info(System.DateTime.Now + $": Constructing Queue Transaction Processor for url: {url}, clientId: {clientId}, clientSecret: {clientSecret}.");
+            //log.Info(System.DateTime.Now + $": listId: {listId}");
 
-            QueueTransactionProcessor processor = new QueueTransactionProcessor(url, clientId, clientSecret, id, log);
+            QueueTransactionProcessor processor = new QueueTransactionProcessor(url, clientId, clientSecret, id, log, listId);
             processor.ProcessWebHookEvents(queueEventNotification);
         }
     }
